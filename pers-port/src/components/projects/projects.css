@@ -1,0 +1,31 @@
+.projects {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    padding: 2rem;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    border-color: black;
+}
+
+.proj-name {
+    display: flex;
+    justify-content: left;
+    padding: 1rem;
+}
+
+.projects h1 {
+    font-family: "Playfair Display", serif;
+    font-size: clamp(24px, 2.5vw, 36px);
+    font-weight: 500;
+}
+
+.proj-pic {
+    display: flex;
+    justify-content: center;
+    max-width: 
+}

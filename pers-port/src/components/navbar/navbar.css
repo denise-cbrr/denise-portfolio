@@ -1,0 +1,30 @@
+.navbar-cont {
+    width: 100%;
+    height: 70px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.navbar-cont a {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: clamp(20px, 2.5vw, 24px);
+    text-align: right;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-cont a:hover {
+    color: black;
+}

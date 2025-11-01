@@ -1,0 +1,97 @@
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.modal-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-height: 600px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.overlay {
+    background: #000000;
+    opacity: 20%;
+}
+
+.modal h1 {
+    font-family: "Playfair Display", serif;
+    font-size: clamp(24px, 2.5vw, 48px);
+    font-weight: 500;
+    text-align: left;
+}
+
+.modal a {
+    font-family: "Nunito", sans-serif;
+    font-weight: light;
+    font-size: clamp(16px, 2.5vw, 18px);
+    text-align: left;
+    padding: 0;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-decoration: none;
+}
+
+.modal a:hover {
+    color: darkblue;
+}
+
+.modal p {
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: clamp(16px, 2.5vw, 18px);
+    text-align: left;
+    padding: 0;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.modal h2 {
+    font-family: "Nunito", sans-serif;
+    font-weight: normal;
+    font-size: clamp(18px, 2.5vw, 20px);
+    text-align: left;
+    padding: 0;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.headline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-line {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.close-btn {
+    display: flex;
+    width: 35px;
+    max-height: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+
+}
