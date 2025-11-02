@@ -3,6 +3,12 @@ html, body, #root {
   margin: 0;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 #root {
   max-width: 100%;
   margin: 0 auto;
@@ -10,7 +16,7 @@ html, body, #root {
   text-align: center;
 }
 
-.logo {
+/*.logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
@@ -36,7 +42,7 @@ html, body, #root {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
-}
+} */
 
 .card {
   padding: 2em;
@@ -45,5 +51,32 @@ html, body, #root {
 .read-the-docs {
   color: #888;
 }
+
+.title {
+    font-family: "Playfair Display", serif;
+    font-size: clamp(40px, 2.5vw, 60px);
+    font-weight: 550;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem 3rem 0;
+    color: #4f7162;
+}
+
+.diff-title {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(40px, 2.5vw, 60px);
+  font-weight: 550;
+  text-align: left;
+  justify-content: center;
+  padding: 2rem 3rem 0;
+  color: #4f7162;
+}
+
+@media (max-width: 768px) {
+  .diff-title {
+    text-align: center;
+  }
+}
+
 
 

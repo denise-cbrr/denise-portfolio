@@ -1,10 +1,12 @@
+
 .navbar-cont {
     width: 100%;
-    height: 70px;
-    background-color: cornflowerblue;
+    height: 60px;
+    background-color: #4f7162;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
 }
 
 .links {
@@ -18,13 +20,20 @@
 .navbar-cont a {
     font-family: "Playfair Display", serif;
     font-weight: bold;
-    font-size: clamp(20px, 2.5vw, 24px);
+    font-size: clamp(22px, 2.5vw, 24px);
     text-align: right;
     padding: 0;
     text-decoration: none;
-    color: white;
+    color: #f6fff8;
+    transition: color 0.3s ease-in-out 0s;
 }
 
 .navbar-cont a:hover {
-    color: black;
+    color: #A4C3B2;
+}
+
+@media (max-width: 768px) {
+    .navbar-cont {
+        justify-content: center;
+    }
 }

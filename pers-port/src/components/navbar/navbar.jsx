@@ -3,11 +3,13 @@ import "./navbar.css";
 
 function Navbar() {
     return(
-        <div className="navbar-cont">
-            <div className="links">
-                <a href="#about">About Me</a>
-                <a href="#projects">Projects</a>
-                <a href="#extra">Photos</a>
+        <div className="navbar">
+            <div className="navbar-cont">
+                <div className="links">
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#extra">Photos</a>
+                </div>
             </div>
         </div>
     );

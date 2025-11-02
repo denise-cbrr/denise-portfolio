@@ -8,7 +8,7 @@ function Modal() {
     }
     return (
         <>
-        <button 
+        <button className="open"
         onClick={toggleModal}>
             Contact Me
         </button>
