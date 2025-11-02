@@ -18,7 +18,8 @@
   }
   
 img {
-    border-radius: 15px;
+    border: 10px solid #CCE3DE;
+    border-radius: 20px;
     width: 300px;
     height: auto;
   }
@@ -65,8 +66,16 @@ img {
     column-gap: 2rem;
     padding: 2.5px 0;
     margin: 0;
-  
-  }
+}
+
+.tag {
+  border: 2px solid #A4C3B2;
+  border-radius: 10px;
+  padding: 3px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
   
 .bio {
     display: flex;

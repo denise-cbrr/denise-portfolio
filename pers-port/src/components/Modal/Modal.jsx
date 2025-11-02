@@ -29,12 +29,12 @@ function Modal() {
                         <a href="mailto:denisepawleen.cabrera@yale.edu">denisepawleen.cabrera@yale.edu</a>
                     </div>
                     <div className="contact-line">
-                        <p>Phone:</p>
-                        <a href="tel:+18084657574">+1 (808) 465-7574</a>
-                    </div>
-                    <div className="contact-line">
                         <p>LinkedIn:</p>
                         <a href="www.linkedin.com/in/denisepawleencabrera">@DenisePawleenCabrera</a>
+                    </div>
+                    <div className="contact-line">
+                        <p>GitHub:</p>
+                        <a href="https://github.com/denise-cbrr">https://github.com/denise-cbrr</a>
                     </div>
                 </div>
             </div>

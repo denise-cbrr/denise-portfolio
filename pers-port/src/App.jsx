@@ -12,9 +12,9 @@ function App() {
   return (
     <>
       <Navbar/ >
-      <h1 className="diff-title" id='#about'>Who Am I?</h1>
+      <h1 className="diff-title" id='about'>Who Am I?</h1>
       <About/ >
-      <h1 className="title" id='#projects'>My Projects</h1>
+      <h1 className="title" id='projects'>My Projects</h1>
       <Projects/ >
     </>
   )

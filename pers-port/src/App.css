@@ -1,6 +1,11 @@
 html, body, #root {
   height: 100%;
   margin: 0;
+  scroll-behavior: smooth;
+}
+
+#about, #projects {
+  scroll-margin-top: 60px;
 }
 
 body {
@@ -68,7 +73,7 @@ body {
   font-weight: 550;
   text-align: left;
   justify-content: center;
-  padding: 2rem 3rem 0;
+  padding: 90px 3rem 0 3rem;
   color: #4f7162;
 }
 

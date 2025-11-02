@@ -14,8 +14,8 @@ function About() {
                     <h1 className="pronouns">(she/her)</h1>
                 </div>
                 <div className="tags">
-                    <p className='tags'>Wai'anae, HI</p>
-                    <p className='tags'>Pauli Murray '28</p>
+                    <div className="tag"><p className='tags'>Wai'anae, HI</p></div>
+                    <div className="tag"><p className='tags'>Pauli Murray '28</p></div>
                 </div>
                 <div className="bio">
                     <p>I am a sophomore at Yale College studying Computer Science. I'm an active member of Kasama: The Filipinx Club at Yale and the Pitches&Tones Acapella Group.

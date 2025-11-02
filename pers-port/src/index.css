@@ -65,6 +65,7 @@ button {
 button:hover, button:focus {
   outline: none;
   background-color: #CCE3DE;
+  cursor: pointer;
 
 }
 

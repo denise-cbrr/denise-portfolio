@@ -6,6 +6,9 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: fixed;
+    top: 0;
+    
 
 }
 
@@ -25,11 +28,13 @@
     padding: 0;
     text-decoration: none;
     color: #f6fff8;
-    transition: color 0.3s ease-in-out 0s;
+    transition: color 0.2s ease-in-out 0s;
+    transition: font-size 0.2s ease-in-out 0s;
 }
 
 .navbar-cont a:hover {
     color: #A4C3B2;
+    font-size: clamp(24px, 2.5vw, 26px);
 }
 
 @media (max-width: 768px) {
