@@ -30,7 +30,7 @@ function Modal() {
                     </div>
                     <div className="contact-line">
                         <p>LinkedIn:</p>
-                        <a href="www.linkedin.com/in/denisepawleencabrera">@DenisePawleenCabrera</a>
+                        <a href="https://www.linkedin.com/in/denisepawleencabrera">@DenisePawleenCabrera</a>
                     </div>
                     <div className="contact-line">
                         <p>GitHub:</p>
