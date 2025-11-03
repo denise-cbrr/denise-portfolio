@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import Modal from "../Modal/Modal";
 
-function About() {
+function About(props) {
     return (
         <div id="about" className="about">
             <div className="picture">
